@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'IBM Plex Mono', monospace;
+    background-color: white;
+    background-size: cover;
+    font-style: italic;
+    
+}
+.sel {
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+    text-align: center;
+}
+.sel li {
+    display: inline-block; /* NEW */
+}
+.sel a{
+    font-weight: 100;
+    color: black;
+    border: none;
+     /* aspect must apply to innermost */
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.sel button {
+    font-weight: 100;
+    font-style: italic;
+    padding: 0;
+    border: none;
+    background: none;
+    text-decoration: underline;
+    font-size: 95%;
+    font-family: 'IBM Plex Mono', monospace;
+    color: black;
+
+}
+.sel img{
+    max-width: 14px;
+}
+.sel hr{
+    height: 1px;
+    background-color: black;
+    border-color: rgba(0, 0, 0, 0.0);
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+canvas {
+    margin-top: -500px;
+    width: 60%;
+    height: 60%;
+    
+}
+#fixurself{
+    height: 1em;
+    color:black;
+    margin-left: 20%;
+    text-align: left;
+    margin-top: 0px;
+}
+footer {
+    text-align: center;
+    color:rgba(150, 150, 150);
+    margin-top: 500px;
+    padding: 0;
+    font-size: 10px;
+}
+.tab {
+    font-style: normal;
+    height: 1em;
+    font-size: 12px;
+    margin-left: 20%;
+    margin-right: 20%;
+    /*text-indent: 100px;*/
+    font-weight: 100;
+}
+.linkshenanigans{
+    margin-top: 0spx;
+    margin-left: 20%;
+    font-weight: 100;
+    font-size: 12px;
+}
+.linkshenanigans a {
+    color: blue;
+}
+#crossline {
+    height: 1px;
+    background-color: rgb(233, 233, 233);
+    border-color: rgba(0, 0, 0, 0.0);
+    margin-left: 230px;
+    margin-right: 25%;
+    margin-top: -20px;
+}
+footer p {
+    margin-top: 760px;
+    margin-bottom: 0;
+}
+footer a {
+    margin-top: -8px;
+}
+.game {
+    margin-left: 0;
+    padding: 0;
+}
