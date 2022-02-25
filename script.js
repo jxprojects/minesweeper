@@ -4,17 +4,7 @@ var isFlagged = [];
 var w, h;
 var numMines;
 var loser = 0;
-var cnv;
 
-function centerCanvas() {
-    var x = window.innerWidth/2 - (50*13)/2;
-    var y =700;
-    cnv.position(x, y);
-  }
-
-  function windowResized() {
-    centerCanvas();
-  }
 
 
 function setup() {
@@ -57,8 +47,7 @@ function setup() {
 
 
     
-    cnv = createCanvas(50*h, 50*w);
-    centerCanvas();
+    createCanvas(50*h, 50*w);
     
 }
 
