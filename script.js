@@ -48,6 +48,9 @@ function setup() {
 
     
     createCanvas(50*h, 50*w);
+    //createCanvas(windowWidth, windowHeight);
+    $("#defaultCanvas0").css({ 'height': "650px" });
+    $("#defaultCanvas0").css({ 'width': "650px" });
     
 }
 
